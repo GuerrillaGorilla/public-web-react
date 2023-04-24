@@ -7,16 +7,18 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={thinky} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+        <p className="">
+          TypeScript + Tailwind + React + Fathym
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://fathym.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          <h1 className="text-3xl font-bold no-underline">
+            Hello world!
+          </h1>
         </a>
       </header>
     </div>
