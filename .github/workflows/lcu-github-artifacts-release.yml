@@ -1,10 +1,11 @@
-name: GuerrillaGorilla/public-web-react
+name: GuerrillaGorilla/tailwind-react-dashboard
 
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main]
+  workflow_dispatch:
 
 permissions: write-all
 
